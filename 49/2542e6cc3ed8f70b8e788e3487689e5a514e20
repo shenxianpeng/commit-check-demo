@@ -1,0 +1,14 @@
+typo.md
+  h_95e33fbd4ab2d9 1-3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "492542e6cc3ed8f70b8e788e3487689e5a514e20",
+  "prompts": {},
+  "humans": {
+    "h_95e33fbd4ab2d9": {
+      "author": "shenxianpeng <xianpeng.shen@gmail.com>"
+    }
+  }
+}
