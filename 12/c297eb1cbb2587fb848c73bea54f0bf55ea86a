@@ -1,0 +1,19 @@
+CHANGELOG.md
+  s_e501f6b1342cdb::t_905e422a362f5a 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "12c297eb1cbb2587fb848c73bea54f0bf55ea86a",
+  "prompts": {},
+  "sessions": {
+    "s_e501f6b1342cdb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f1882f11-0933-4110-b8d8-d49576799bda",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "shenxianpeng <xianpeng.shen@gmail.com>"
+    }
+  }
+}
