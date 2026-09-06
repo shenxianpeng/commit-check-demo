@@ -1,0 +1,19 @@
+profile.md
+  s_e501f6b1342cdb::t_dbb959c61c4c11 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "8e8f7cb0608a474dc46c94f34f719604e85313eb",
+  "prompts": {},
+  "sessions": {
+    "s_e501f6b1342cdb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f1882f11-0933-4110-b8d8-d49576799bda",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "shenxianpeng <xianpeng.shen@gmail.com>"
+    }
+  }
+}
