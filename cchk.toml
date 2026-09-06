@@ -1,0 +1,36 @@
+# Commit Check configuration for this demo repository
+# https://commit-check.com/configuration/
+
+# Rules listed here still run and are reported in full, but never turn the
+# check red -- useful for turning a rule on before enforcing it.
+warn = ["branch"]
+
+[commit]
+conventional_commits = true
+subject_capitalized = true
+subject_imperative = true
+subject_max_length = 72
+subject_min_length = 5
+allow_commit_types = ["feat", "fix", "docs", "style", "refactor", "test", "chore"]
+allow_merge_commits = true
+allow_revert_commits = true
+allow_fixup_commits = true
+allow_wip_commits = false
+allow_empty_commits = false
+require_body = false
+require_signed_off_by = false
+
+# Bots are always skipped, whatever they commit.
+ignore_authors = ["dependabot[bot]", "renovate[bot]"]
+
+[branch]
+conventional_branch = true
+allow_branch_types = ["feature", "bugfix", "hotfix", "release", "chore", "feat", "fix"]
+ignore_authors = ["dependabot[bot]", "renovate[bot]"]
+
+[author.name]
+regex = "^[A-Za-zÀ-ÖØ-öø-ÿ ,.'-]+$|.*(\\[bot])"
+min_length = 2
+
+[author.email]
+regex = "^.+@.+$"
