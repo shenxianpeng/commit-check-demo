@@ -35,3 +35,9 @@ min_length = 2
 
 [author.email]
 regex = "^.+@.+$"
+
+# This team squash-merges: check the one commit a squash merge would land
+# (built from the pull request title and description) instead of every
+# commit on the branch individually.
+[pull_request]
+check = "squash"
