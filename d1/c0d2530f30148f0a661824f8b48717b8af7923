@@ -1,0 +1,19 @@
+cchk.toml
+  s_e501f6b1342cdb::t_2b91bdc07f1dff 23-25,30
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "d1c0d2530f30148f0a661824f8b48717b8af7923",
+  "prompts": {},
+  "sessions": {
+    "s_e501f6b1342cdb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f1882f11-0933-4110-b8d8-d49576799bda",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "shenxianpeng <xianpeng.shen@gmail.com>"
+    }
+  }
+}
