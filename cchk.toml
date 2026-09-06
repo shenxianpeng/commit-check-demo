@@ -20,13 +20,14 @@ allow_empty_commits = false
 require_body = false
 require_signed_off_by = false
 
-# Bots are always skipped, whatever they commit.
-ignore_authors = ["dependabot[bot]", "renovate[bot]"]
+# Bots ending in [bot] are always skipped by the App itself; this covers a
+# service account that commits under a plain name instead.
+ignore_authors = ["dependabot[bot]", "renovate[bot]", "release-automation"]
 
 [branch]
 conventional_branch = true
 allow_branch_types = ["feature", "bugfix", "hotfix", "release", "chore", "feat", "fix"]
-ignore_authors = ["dependabot[bot]", "renovate[bot]"]
+ignore_authors = ["dependabot[bot]", "renovate[bot]", "release-automation"]
 
 [author.name]
 regex = "^[A-Za-zÀ-ÖØ-öø-ÿ ,.'-]+$|.*(\\[bot])"
